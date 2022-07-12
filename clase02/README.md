@@ -58,5 +58,30 @@ Archivo q nos permite no darle seguimiento a otros
 
     git commit -am "mensaje"
 
+### Crear un commit vacío
+
+    git commit --allow-empty -m "mensaje"
+
+### Agrego algo que me olvidé en el último commit
+
+    git commit --amend
+
+## GIT ADD
+
+### Por archivo
+
+    git add index.html
+
+### Agrego todo
+
+    git add .
+
+### Agrego partes de un archivo 
+
+    git add -p
+
+* y: yes
+* n: no
+
 
 
